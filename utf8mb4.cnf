@@ -1,0 +1,9 @@
+[mysqld]
+innodb_file_per_table
+innodb_file_format=barracuda
+innodb_large_prefix=1
+character-set-server=utf8mb4
+max_allowed_packet=16MB
+
+[client]
+default-character-set=utf8mb4
